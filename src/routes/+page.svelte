@@ -4,16 +4,13 @@
 
   // create array of audio sources
   const tiles = [
-    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut1.mp3" },
-    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut2.mp3" },
-    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut3.mp3" },
-    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut4.mp3" },
-  ];
-
-  let titles = [
-    { id: "Cut 1", name: "first fart" },
-    { id: "Cut 2", name: "freebirds" },
-    { id: "Cut 3", name: "biology homework" },
+    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut1.mp3", name: "first fart" },
+    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut2.mp3", name: "freebirds" },
+    {
+      audioSrc: "src/FckFace Wall/FckfaceWall_Cut3.mp3",
+      name: "biology homework",
+    },
+    { audioSrc: "src/FckFace Wall/FckfaceWall_Cut4.mp3", name: "tbd" },
   ];
 </script>
 
@@ -29,24 +26,14 @@
 </p>
 
 <div class="container">
-  {#each tiles as tile, i}
+  {#each tiles as tile}
     <div class="card">
-      <Tile audioSrc={tile.audioSrc} title={titles[i]} />
-      <!-- {titles.forEach(function (titles) {
-        console.log(titles); -->
-      <!-- })} -->
-      <!-- {#each titles as title, i}
-        <div class="title">
-          {i + 1}:
-          <p>{title.id}: {title.name}</p>
-        </div>
-      {/each} -->
+      <Tile audioSrc={tile.audioSrc} name={tile.name} />
     </div>
   {/each}
 </div>
 
 <style>
-  /* //create centered text class */
   .centered-text {
     text-align: center;
   }
