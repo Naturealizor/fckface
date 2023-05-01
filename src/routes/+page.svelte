@@ -17,7 +17,7 @@
 <h1 class="centered-text">Welcome to the Wall of Best of Fu*kFace!</h1>
 <p class="centered-text">
   Listen to the original here <a
-    href="https://www.youtube.com/watch?v=_5v7MpXPfjk">here!</a
+    href="https://www.youtub@e.com/watch?v=_5v7MpXPfjk">here!</a
   > (Warning!! If you don't think fart jokes are funny, you may want to leave now)
 </p>
 <p class="centered-text">
