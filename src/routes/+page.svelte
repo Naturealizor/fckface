@@ -14,7 +14,7 @@
   ];
 </script>
 
-<h1 class="centered-text">Welcome to the Wall of Best of Fu*kFace!</h1>
+<h1 class="centered-text">Welcome to the Wall of Best of F**kFace!</h1>
 <p class="centered-text">
   Listen to the original here <a
     href="https://www.youtub@e.com/watch?v=_5v7MpXPfjk">here!</a
