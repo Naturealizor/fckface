@@ -4,18 +4,29 @@
   export let audioSrc;
   export let name;
   let audio;
+  let isAudioPlaying = false;
 
   onMount(() => {
     audio = new Audio(audioSrc);
   });
 
   function playAudio() {
-    audio.play();
+    while (!isAudioPlaying) {
+      audio.play();
+      isAudioPlaying = true;
+    }
   }
 </script>
 
-<div on:mouseover={playAudio} on:focus={playAudio}>
+<div on:click={playAudio} on:keypress={playAudio}>
   <div class="tile">
     <p>{name}</p>
   </div>
 </div>
+
+<style>
+  .tile {
+    text-align: center;
+    cursor: pointer;
+  }
+</style>
