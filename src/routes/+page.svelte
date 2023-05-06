@@ -81,11 +81,11 @@
 <p class="centered-text">
   Listen to the original here <a
     href="https://www.youtub@e.com/watch?v=_5v7MpXPfjk">here!</a
-  > (Warning!! If you don't think fart jokes are funny, you may want to leave now)
+  > <br />(If you don't think fart jokes are funny, you may want to leave now)
 </p>
 <p class="centered-text">
-  I really can't say why exactly I wanted to make this, other than I got bored
-  and this popped into my head. I hope you enjoy it!
+  I really can't say why exactly I made this, other than I got bored and this
+  popped into my head. I hope you enjoy it!
 </p>
 <p class="warning">
   headphone users and anyone in public warning!!!! <br />some of these clips are

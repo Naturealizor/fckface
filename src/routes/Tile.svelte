@@ -4,17 +4,13 @@
   export let audioSrc;
   export let name;
   let audio;
-  let isAudioPlaying = false;
 
   onMount(() => {
     audio = new Audio(audioSrc);
   });
 
   function playAudio() {
-    while (!isAudioPlaying) {
-      audio.play();
-      isAudioPlaying = true;
-    }
+    audio.play();
   }
 </script>
 
