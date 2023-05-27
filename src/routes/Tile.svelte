@@ -14,7 +14,8 @@
   }
 </script>
 
-<div on:click={playAudio} on:keypress={playAudio}>
+<!-- <div on:click={playAudio} on:keypress={playAudio}> -->
+<div on:hover={playAudio}>
   <div class="tile">
     <p>{name}</p>
   </div>
