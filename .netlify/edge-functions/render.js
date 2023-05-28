@@ -231,7 +231,7 @@ var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     index2 = 1;
     component2 = async () => (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default;
-    imports2 = ["_app/immutable/entry/error.svelte.bd951687.js", "_app/immutable/chunks/index.c1ef6ebd.js", "_app/immutable/chunks/singletons.f6c35fcf.js"];
+    imports2 = ["_app/immutable/entry/error.svelte.5d99bfc3.js", "_app/immutable/chunks/index.c1ef6ebd.js", "_app/immutable/chunks/singletons.f83bf36b.js"];
     stylesheets2 = [];
     fonts2 = [];
   }
@@ -258,7 +258,9 @@ var init_page_svelte = __esm({
       if ($$props.name === void 0 && $$bindings.name && name !== void 0)
         $$bindings.name(name);
       $$result.css.add(css$1);
-      return `<div><div class="tile svelte-rdoywq"><p>${escape(name)}</p></div>
+      return `
+
+<div><div class="tile svelte-rdoywq"><p>${escape(name)}</p></div>
 </div>`;
     });
     css = {
@@ -268,175 +270,175 @@ var init_page_svelte = __esm({
     Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       const tiles = [
         {
-          audioSrc: "src/FckFace Wall/FckfaceWall_Cut1.mp3",
+          audioSrc: "FckFace_Clips/FckfaceWall_Cut1.mp3",
           name: "first fart"
         },
         {
-          audioSrc: "src/FckFace Wall/FckfaceWall_Cut2.mp3",
+          audioSrc: "FckFace_Clips/FckfaceWall_Cut2.mp3",
           name: "freebirds"
         },
         {
-          audioSrc: "src/FckFace Wall/FckfaceWall_Cut3.mp3",
+          audioSrc: "FckFace_Clips/FckfaceWall_Cut3.mp3",
           name: "biology homework"
         },
         {
-          audioSrc: "src/FckFace Wall/FckfaceWall_Cut4.mp3",
+          audioSrc: "FckFace_Clips/FckfaceWall_Cut4.mp3",
           name: "SUV fart"
         },
         {
-          audioSrc: "src/FckFace Wall/FckfaceWall_Cut5.mp3",
+          audioSrc: "FckFace_Clips/FckfaceWall_Cut5.mp3",
           name: "baseball bats"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (2).mp3",
+          audioSrc: "FckFace_Clips/clip (2).mp3",
           name: "my name is"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (3).mp3",
+          audioSrc: "FckFace_Clips/clip (3).mp3",
           name: "final part"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (4).mp3",
+          audioSrc: "FckFace_Clips/clip (4).mp3",
           name: "bomb pops"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (5).mp3",
+          audioSrc: "FckFace_Clips/clip (5).mp3",
           name: "gassed himself out"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (6).mp3",
+          audioSrc: "FckFace_Clips/clip (6).mp3",
           name: "taco bell drive through"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (8).mp3",
+          audioSrc: "FckFace_Clips/clip (8).mp3",
           name: "*shrug*"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (9).mp3",
+          audioSrc: "FckFace_Clips/clip (9).mp3",
           name: "relief"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (11).mp3",
+          audioSrc: "FckFace_Clips/clip (11).mp3",
           name: "yeah!"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (12).mp3",
+          audioSrc: "FckFace_Clips/clip (12).mp3",
           name: "am I ok?"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (13).mp3",
+          audioSrc: "FckFace_Clips/clip (13).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (14).mp3",
+          audioSrc: "FckFace_Clips/clip (14).mp3",
           name: "what was that"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (15).mp3",
+          audioSrc: "FckFace_Clips/clip (15).mp3",
           name: "we agreed"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (17).mp3",
+          audioSrc: "FckFace_Clips/clip (17).mp3",
           name: "real name"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (19).mp3",
+          audioSrc: "FckFace_Clips/clip (19).mp3",
           name: "eww eww"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (20).mp3",
+          audioSrc: "FckFace_Clips/clip (20).mp3",
           name: "bought a porta potty"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (23).mp3",
+          audioSrc: "FckFace_Clips/clip (23).mp3",
           name: "we got salad cream frozen"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (24).mp3",
+          audioSrc: "FckFace_Clips/clip (24).mp3",
           name: "another root canal"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (25).mp3",
+          audioSrc: "FckFace_Clips/clip (25).mp3",
           name: "geoff"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (28).mp3",
+          audioSrc: "FckFace_Clips/clip (28).mp3",
           name: "it shot out"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (29).mp3",
+          audioSrc: "FckFace_Clips/clip (29).mp3",
           name: "fucked up so bad"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (31).mp3",
+          audioSrc: "FckFace_Clips/clip (31).mp3",
           name: "definition of condiment"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (33).mp3",
+          audioSrc: "FckFace_Clips/clip (33).mp3",
           name: "iunno"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (37).mp3",
+          audioSrc: "FckFace_Clips/clip (37).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (40).mp3",
+          audioSrc: "FckFace_Clips/clip (40).mp3",
           name: "my name is wtf"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (42).mp3",
+          audioSrc: "FckFace_Clips/clip (42).mp3",
           name: "andrew gag"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (43).mp3",
+          audioSrc: "FckFace_Clips/clip (43).mp3",
           name: "all the bov"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (46).mp3",
+          audioSrc: "FckFace_Clips/clip (46).mp3",
           name: "sat in the little.."
         },
         {
-          audioSrc: "src/FckFace Wall/clip (47).mp3",
+          audioSrc: "FckFace_Clips/clip (47).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (48).mp3",
+          audioSrc: "FckFace_Clips/clip (48).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (49).mp3",
+          audioSrc: "FckFace_Clips/clip (49).mp3",
           name: "you look like dog shit"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (50).mp3",
+          audioSrc: "FckFace_Clips/clip (50).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (55).mp3",
+          audioSrc: "FckFace_Clips/clip (55).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (58).mp3",
+          audioSrc: "FckFace_Clips/clip (58).mp3",
           name: "relief two"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (61).mp3",
+          audioSrc: "FckFace_Clips/clip (61).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (62).mp3",
+          audioSrc: "FckFace_Clips/clip (62).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (67).mp3",
+          audioSrc: "FckFace_Clips/clip (67).mp3",
           name: "???"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (69).mp3",
+          audioSrc: "FckFace_Clips/clip (69).mp3",
           name: "what's that noise"
         },
         {
-          audioSrc: "src/FckFace Wall/clip (72).mp3",
+          audioSrc: "FckFace_Clips/clip (72).mp3",
           name: "???"
         }
       ];
@@ -476,7 +478,7 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     index3 = 2;
     component3 = async () => (await Promise.resolve().then(() => (init_page_svelte(), page_svelte_exports))).default;
-    imports3 = ["_app/immutable/entry/_page.svelte.e5e0ac8f.js", "_app/immutable/chunks/index.c1ef6ebd.js"];
+    imports3 = ["_app/immutable/entry/_page.svelte.af6096be.js", "_app/immutable/chunks/index.c1ef6ebd.js"];
     stylesheets3 = ["_app/immutable/assets/_page.3e2d8c7f.css"];
     fonts3 = [];
   }
@@ -646,7 +648,7 @@ var options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "19asvsr"
+  version_hash: "1n64kep"
 };
 function get_hooks() {
   return {};
@@ -4183,10 +4185,10 @@ _manifest = new WeakMap();
 var manifest = {
   appDir: "_app",
   appPath: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png"]),
-  mimeTypes: { ".png": "image/png" },
+  assets: /* @__PURE__ */ new Set(["favicon.png", "FckFace_Clips/clip (11).mp3", "FckFace_Clips/clip (12).mp3", "FckFace_Clips/clip (13).mp3", "FckFace_Clips/clip (14).mp3", "FckFace_Clips/clip (15).mp3", "FckFace_Clips/clip (17).mp3", "FckFace_Clips/clip (19).mp3", "FckFace_Clips/clip (2).mp3", "FckFace_Clips/clip (20).mp3", "FckFace_Clips/clip (21).mp3", "FckFace_Clips/clip (22).mp3", "FckFace_Clips/clip (23).mp3", "FckFace_Clips/clip (24).mp3", "FckFace_Clips/clip (25).mp3", "FckFace_Clips/clip (28).mp3", "FckFace_Clips/clip (29).mp3", "FckFace_Clips/clip (3).mp3", "FckFace_Clips/clip (30).mp3", "FckFace_Clips/clip (31).mp3", "FckFace_Clips/clip (33).mp3", "FckFace_Clips/clip (35).mp3", "FckFace_Clips/clip (36).mp3", "FckFace_Clips/clip (37).mp3", "FckFace_Clips/clip (38).mp3", "FckFace_Clips/clip (39).mp3", "FckFace_Clips/clip (4).mp3", "FckFace_Clips/clip (40).mp3", "FckFace_Clips/clip (41).mp3", "FckFace_Clips/clip (42).mp3", "FckFace_Clips/clip (43).mp3", "FckFace_Clips/clip (44).mp3", "FckFace_Clips/clip (46).mp3", "FckFace_Clips/clip (47).mp3", "FckFace_Clips/clip (48).mp3", "FckFace_Clips/clip (49).mp3", "FckFace_Clips/clip (5).mp3", "FckFace_Clips/clip (50).mp3", "FckFace_Clips/clip (51).mp3", "FckFace_Clips/clip (52).mp3", "FckFace_Clips/clip (53).mp3", "FckFace_Clips/clip (54).mp3", "FckFace_Clips/clip (55).mp3", "FckFace_Clips/clip (56).mp3", "FckFace_Clips/clip (57).mp3", "FckFace_Clips/clip (58).mp3", "FckFace_Clips/clip (6).mp3", "FckFace_Clips/clip (60).mp3", "FckFace_Clips/clip (61).mp3", "FckFace_Clips/clip (62).mp3", "FckFace_Clips/clip (63).mp3", "FckFace_Clips/clip (64).mp3", "FckFace_Clips/clip (65).mp3", "FckFace_Clips/clip (66).mp3", "FckFace_Clips/clip (67).mp3", "FckFace_Clips/clip (68).mp3", "FckFace_Clips/clip (69).mp3", "FckFace_Clips/clip (7).mp3", "FckFace_Clips/clip (70).mp3", "FckFace_Clips/clip (71).mp3", "FckFace_Clips/clip (72).mp3", "FckFace_Clips/clip (8).mp3", "FckFace_Clips/clip (9).mp3", "FckFace_Clips/e0808a16.mp3", "FckFace_Clips/e0808a1f.au", "FckFace_Clips/Fckface-wall-original - Copy.mp4", "FckFace_Clips/Fckface-wall-original.mp4", "FckFace_Clips/FckfaceWall_Cut1.mp3", "FckFace_Clips/FckfaceWall_Cut2.mp3", "FckFace_Clips/FckfaceWall_Cut3.mp3", "FckFace_Clips/FckfaceWall_Cut4.mp3", "FckFace_Clips/FckfaceWall_Cut5.mp3", "FckFace_Clips/Preview.mp4"]),
+  mimeTypes: { ".png": "image/png", ".mp3": "audio/mpeg", ".au": "audio/basic", ".mp4": "video/mp4" },
   _: {
-    client: { "start": { "file": "_app/immutable/entry/start.4a46940a.js", "imports": ["_app/immutable/entry/start.4a46940a.js", "_app/immutable/chunks/index.c1ef6ebd.js", "_app/immutable/chunks/singletons.f6c35fcf.js"], "stylesheets": [], "fonts": [] }, "app": { "file": "_app/immutable/entry/app.b5f69084.js", "imports": ["_app/immutable/entry/app.b5f69084.js", "_app/immutable/chunks/index.c1ef6ebd.js"], "stylesheets": [], "fonts": [] } },
+    client: { "start": { "file": "_app/immutable/entry/start.3639e42c.js", "imports": ["_app/immutable/entry/start.3639e42c.js", "_app/immutable/chunks/index.c1ef6ebd.js", "_app/immutable/chunks/singletons.f83bf36b.js"], "stylesheets": [], "fonts": [] }, "app": { "file": "_app/immutable/entry/app.87c4345c.js", "imports": ["_app/immutable/entry/app.87c4345c.js", "_app/immutable/chunks/index.c1ef6ebd.js"], "stylesheets": [], "fonts": [] } },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
