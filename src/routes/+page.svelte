@@ -5,91 +5,97 @@
   // create array of audio sources
   const tiles = [
     {
-      audioSrc: "static/FckFace Wall/FckfaceWall_Cut1.mp3",
+      audioSrc: "FckFace_Clips/FckfaceWall_Cut1.mp3",
       name: "first fart",
     },
-    { audioSrc: "static/FckFace Wall/FckfaceWall_Cut2.mp3", name: "freebirds" },
     {
-      audioSrc: "static/FckFace Wall/FckfaceWall_Cut3.mp3",
+      audioSrc: "FckFace_Clips/FckfaceWall_Cut2.mp3",
+      name: "freebirds",
+    },
+    {
+      audioSrc: "FckFace_Clips/FckfaceWall_Cut3.mp3",
       name: "biology homework",
     },
-    { audioSrc: "static/FckFace Wall/FckfaceWall_Cut4.mp3", name: "SUV fart" },
+    { audioSrc: "FckFace_Clips/FckfaceWall_Cut4.mp3", name: "SUV fart" },
     {
-      audioSrc: "static/FckFace Wall/FckfaceWall_Cut5.mp3",
+      audioSrc: "FckFace_Clips/FckfaceWall_Cut5.mp3",
       name: "baseball bats",
     },
-    { audioSrc: "static/FckFace Wall/clip (2).mp3", name: "my name is" },
-    { audioSrc: "static/FckFace Wall/clip (3).mp3", name: "final part" },
-    { audioSrc: "static/FckFace Wall/clip (4).mp3", name: "bomb pops" },
+    { audioSrc: "FckFace_Clips/clip (2).mp3", name: "my name is" },
+    { audioSrc: "FckFace_Clips/clip (3).mp3", name: "final part" },
+    { audioSrc: "FckFace_Clips/clip (4).mp3", name: "bomb pops" },
     {
-      audioSrc: "static/FckFace Wall/clip (5).mp3",
+      audioSrc: "FckFace_Clips/clip (5).mp3",
       name: "gassed himself out",
     },
     {
-      audioSrc: "static/FckFace Wall/clip (6).mp3",
+      audioSrc: "FckFace_Clips/clip (6).mp3",
       name: "taco bell drive through",
     },
-    { audioSrc: "static/FckFace Wall/clip (8).mp3", name: "*shrug*" },
-    { audioSrc: "static/FckFace Wall/clip (9).mp3", name: "relief" },
-    { audioSrc: "static/FckFace Wall/clip (11).mp3", name: "yeah!" },
-    { audioSrc: "static/FckFace Wall/clip (12).mp3", name: "am I ok?" },
-    { audioSrc: "static/FckFace Wall/clip (13).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (14).mp3", name: "what was that" },
-    { audioSrc: "static/FckFace Wall/clip (15).mp3", name: "we agreed" },
-    { audioSrc: "static/FckFace Wall/clip (17).mp3", name: "real name" },
-    { audioSrc: "static/FckFace Wall/clip (19).mp3", name: "eww eww" },
+    { audioSrc: "FckFace_Clips/clip (8).mp3", name: "*shrug*" },
+    { audioSrc: "FckFace_Clips/clip (9).mp3", name: "relief" },
+    { audioSrc: "FckFace_Clips/clip (11).mp3", name: "yeah!" },
+    { audioSrc: "FckFace_Clips/clip (12).mp3", name: "am I ok?" },
+    { audioSrc: "FckFace_Clips/clip (13).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (14).mp3", name: "what was that" },
+    { audioSrc: "FckFace_Clips/clip (15).mp3", name: "we agreed" },
+    { audioSrc: "FckFace_Clips/clip (17).mp3", name: "real name" },
+    { audioSrc: "FckFace_Clips/clip (19).mp3", name: "eww eww" },
     {
-      audioSrc: "static/FckFace Wall/clip (20).mp3",
+      audioSrc: "FckFace_Clips/clip (20).mp3",
       name: "bought a porta potty",
     },
     {
-      audioSrc: "static/FckFace Wall/clip (23).mp3",
+      audioSrc: "FckFace_Clips/clip (23).mp3",
       name: "we got salad cream frozen",
     },
     {
-      audioSrc: "static/FckFace Wall/clip (24).mp3",
+      audioSrc: "FckFace_Clips/clip (24).mp3",
       name: "another root canal",
     },
-    { audioSrc: "static/FckFace Wall/clip (25).mp3", name: "geoff" },
-    { audioSrc: "static/FckFace Wall/clip (28).mp3", name: "it shot out" },
-    { audioSrc: "static/FckFace Wall/clip (29).mp3", name: "fucked up so bad" },
+    { audioSrc: "FckFace_Clips/clip (25).mp3", name: "geoff" },
+    { audioSrc: "FckFace_Clips/clip (28).mp3", name: "it shot out" },
     {
-      audioSrc: "static/FckFace Wall/clip (31).mp3",
+      audioSrc: "FckFace_Clips/clip (29).mp3",
+      name: "fucked up so bad",
+    },
+    {
+      audioSrc: "FckFace_Clips/clip (31).mp3",
       name: "definition of condiment",
     },
-    { audioSrc: "static/FckFace Wall/clip (33).mp3", name: "iunno" },
-    { audioSrc: "static/FckFace Wall/clip (37).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (40).mp3", name: "my name is wtf" },
-    { audioSrc: "static/FckFace Wall/clip (42).mp3", name: "andrew gag" },
-    { audioSrc: "static/FckFace Wall/clip (43).mp3", name: "all the bov" },
+    { audioSrc: "FckFace_Clips/clip (33).mp3", name: "iunno" },
+    { audioSrc: "FckFace_Clips/clip (37).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (40).mp3", name: "my name is wtf" },
+    { audioSrc: "FckFace_Clips/clip (42).mp3", name: "andrew gag" },
+    { audioSrc: "FckFace_Clips/clip (43).mp3", name: "all the bov" },
     {
-      audioSrc: "static/FckFace Wall/clip (46).mp3",
+      audioSrc: "FckFace_Clips/clip (46).mp3",
       name: "sat in the little..",
     },
-    { audioSrc: "static/FckFace Wall/clip (47).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (48).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (47).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (48).mp3", name: "???" },
     {
-      audioSrc: "static/FckFace Wall/clip (49).mp3",
+      audioSrc: "FckFace_Clips/clip (49).mp3",
       name: "you look like dog shit",
     },
-    { audioSrc: "static/FckFace Wall/clip (50).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (55).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (58).mp3", name: "relief two" },
-    { audioSrc: "static/FckFace Wall/clip (61).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (62).mp3", name: "???" },
-    { audioSrc: "static/FckFace Wall/clip (67).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (50).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (55).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (58).mp3", name: "relief two" },
+    { audioSrc: "FckFace_Clips/clip (61).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (62).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (67).mp3", name: "???" },
     {
-      audioSrc: "static/FckFace Wall/clip (69).mp3",
+      audioSrc: "FckFace_Clips/clip (69).mp3",
       name: "what's that noise",
     },
-    { audioSrc: "static/FckFace Wall/clip (72).mp3", name: "???" },
+    { audioSrc: "FckFace_Clips/clip (72).mp3", name: "???" },
   ];
 
-  let isHover = true;
+  // let isHover = true;
 
-  function switchToClick() {
-    isHover = false;
-  }
+  // function switchToClick() {
+  //   isHover = false;
+  // }
 </script>
 
 <h1 class="centered-text">Welcome to the Wall of Best of F**kFace!</h1>
