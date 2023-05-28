@@ -70,11 +70,11 @@
     { audioSrc: "src/FckFace Wall/clip (72).mp3", name: "???" },
   ];
 
-  let isHover = true;
+  // let isHover = true;
 
-  function switchToClick() {
-    isHover = false;
-  }
+  // function switchToClick() {
+  //   isHover = false;
+  // }
 </script>
 
 <h1 class="centered-text">Welcome to the Wall of Best of F**kFace!</h1>
