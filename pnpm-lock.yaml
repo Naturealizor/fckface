@@ -3,14 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@sveltejs/adapter-auto': 2.1.0
   '@sveltejs/adapter-netlify': 2.0.7
-  '@sveltejs/kit': 1.19.0
+  '@sveltejs/kit': 1.22.2
   svelte: 3.59.1
   vite: 4.3.9
 
 devDependencies:
-  '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.19.0
-  '@sveltejs/adapter-netlify': 2.0.7_@sveltejs+kit@1.19.0
-  '@sveltejs/kit': 1.19.0_svelte@3.59.1+vite@4.3.9
+  '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.22.2
+  '@sveltejs/adapter-netlify': 2.0.7_@sveltejs+kit@1.22.2
+  '@sveltejs/kit': 1.22.2_svelte@3.59.1+vite@4.3.9
   svelte: 3.59.1
   vite: 4.3.9
 
@@ -226,33 +226,33 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@sveltejs/adapter-auto/2.1.0_@sveltejs+kit@1.19.0:
+  /@sveltejs/adapter-auto/2.1.0_@sveltejs+kit@1.22.2:
     resolution: {integrity: sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.19.0_svelte@3.59.1+vite@4.3.9
+      '@sveltejs/kit': 1.22.2_svelte@3.59.1+vite@4.3.9
       import-meta-resolve: 3.0.0
     dev: true
 
-  /@sveltejs/adapter-netlify/2.0.7_@sveltejs+kit@1.19.0:
+  /@sveltejs/adapter-netlify/2.0.7_@sveltejs+kit@1.22.2:
     resolution: {integrity: sha512-QztxtQ26wzyonEOy+7RUvl4gqaYRi6UiBcIKrVTWA6uhkDYrB72ttt9t47phNeJAl9j2bCMZHQ8W7k2vXcwTrA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
       '@iarna/toml': 2.2.5
-      '@sveltejs/kit': 1.19.0_svelte@3.59.1+vite@4.3.9
+      '@sveltejs/kit': 1.22.2_svelte@3.59.1+vite@4.3.9
       esbuild: 0.17.19
       set-cookie-parser: 2.6.0
     dev: true
 
-  /@sveltejs/kit/1.19.0_svelte@3.59.1+vite@4.3.9:
-    resolution: {integrity: sha512-39fHvYvUQL3bCdV6Ed9MRIESO6ceM/MRNxAloQin+Qs9DfiM53vhUJBWtbwWAvRR/nM6isWnsbContjE/2/JxQ==}
+  /@sveltejs/kit/1.22.2_svelte@3.59.1+vite@4.3.9:
+    resolution: {integrity: sha512-T6GY5jSfQgoDnNPNqAuDi9IK+ZW0TspzTV16UAN6GTsxbri67DGVIbw7QOXPg8FMrZQMmda1AtAxPMfXbOqCgw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
     peerDependencies:
-      svelte: ^3.54.0
+      svelte: ^3.54.0 || ^4.0.0-next.0
       vite: ^4.0.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.4.1_svelte@3.59.1+vite@4.3.9
@@ -267,7 +267,6 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.3
       svelte: 3.59.1
-      tiny-glob: 0.2.9
       undici: 5.22.1
       vite: 4.3.9
     transitivePeerDependencies:
@@ -389,14 +388,6 @@ packages:
     dev: true
     optional: true
 
-  /globalyzer/0.1.0:
-    resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==}
-    dev: true
-
-  /globrex/0.1.2:
-    resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
-    dev: true
-
   /import-meta-resolve/3.0.0:
     resolution: {integrity: sha512-4IwhLhNNA8yy445rPjD/lWh++7hMDOml2eHtd58eG7h+qK3EryMuuRbsHGPikCoAgIkkDnckKfWSk2iDla/ejg==}
     dev: true
@@ -502,13 +493,6 @@ packages:
   /svelte/3.59.1:
     resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
     engines: {node: '>= 8'}
-    dev: true
-
-  /tiny-glob/0.2.9:
-    resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
     dev: true
 
   /totalist/3.0.1:
